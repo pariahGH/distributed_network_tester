@@ -1,0 +1,14 @@
+[package]
+name = "client"
+version = "0.1.0"
+authors = ["pariah <pariah@teksavvy.tech>"]
+edition = "2018"
+
+[dependencies.rand]
+version = "0.3.0"
+
+[dependencies.crossbeam]
+version = "0.6"
+
+[dependencies.signal-hook]
+git = "https://github.com/vorner/signal-hook"
